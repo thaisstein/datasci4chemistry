@@ -2,6 +2,9 @@ import xml.etree.ElementTree as ET
 import pandas as pd 
 import os
 
+files = os.listdir('.')
+print(files)
+
 xmlfile = "teste01.xml" # variable that keeps the file i'm using, will search for it in the same folder
 
 tree = ET.parse(xmlfile)
